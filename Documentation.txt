@@ -1,0 +1,23 @@
+6. Notes on Optimization
+
+	•	Data Structures:
+	•	Used unordered_map for lesnoeuds and lesarcs for average O(1) access time.
+	•	Used vector for arcs_sortants and arcs_entrants to allow efficient iteration and dynamic resizing.
+	•	Parsing Files:
+	•	Efficiently parse attributes by locating positions of known keys.
+	•	Avoid unnecessary copying and string manipulation.
+	•	Traversal Algorithms:
+	•	Used BFS for shortest path (pluscourtchemin) to ensure optimal path in terms of number of arcs.
+	•	Used DFS for path existence (chemin) to explore possible paths.
+	•	Memory Management:
+	•	Used pointers to arc objects in vectors to avoid copying large objects.
+	•	Ensured that no memory leaks occur by not dynamically allocating memory without proper deallocation.
+	•	Avoiding Redundant Computations:
+	•	Reset visite flags before each traversal to ensure correct algorithm execution.
+	•	Reused data structures like prev_arc maps in traversal methods to reconstruct paths.
+
+7. Conclusion
+
+The above implementation follows the requirements and uses optimized data structures to ensure efficient memory usage and time complexity. The code reads data from the provided CSV files, builds the graph, and provides methods to perform various operations as specified.
+
+Note: To run the code successfully, ensure that the arcs.csv and nodes.csv files are correctly formatted and located in the appropriate directory. Additionally, error handling has been included for file operations and node/arc lookups.

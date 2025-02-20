@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug AlgGra_Projet",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/AlgGra_Projet",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "lldbPath": "/usr/bin/lldb",
+            "sourceLanguages": ["c++"]
+        }
+    ]
+}
