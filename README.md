@@ -1,8 +1,5 @@
 # 🚀 Advanced Algorithms and Graphs (AMS) - Road Network Analysis Project 🏙️
 
-**📚 Course:** Advanced Algorithms and Graphs - CERI - L2 Informatics  
-**👨‍🏫 Instructor:** S. Gueye  
-**📅 Semester:** 3  
 **👥 Team Members:**  
 - **MEFTAH Zineb**  
 - **MEDJBER Syphax**  
